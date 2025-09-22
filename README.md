@@ -130,7 +130,9 @@ Helps derive user stories / acceptance criteria.
 Great for validating that all user journeys are covered.
 
 Useful reference for designers, devs, and QA.
-https://drive.google.com/file/d/1YuOxwqM3BRV0kIkqbb5bAzkew33O3Vhe/view?usp=sharing
+
+https://drive.google.com/file/d/alx-booking-uc/view?usp=sharing
+
 
 
 New services (like loyalty programs or discount coupons) can be added without disrupting core booking.
