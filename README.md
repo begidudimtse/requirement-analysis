@@ -116,4 +116,21 @@ Provide responsive design for mobile and web users.
 
 The system should be designed with modular microservices for easier updates.
 
+# Use Case Diagrams
+Use case diagrams (part of UML) show how users (actors) interact with a system by visualizing the system’s functional requirements as use cases (ovals). They’re like a quick map of “who does what” — perfect for aligning stakeholders, scoping features, and guiding test cases.
+
+Benefits
+
+Clear stakeholder communication (non-tech folks love these).
+
+Quick scoping: shows system boundary and what’s inside/outside scope.
+
+Helps derive user stories / acceptance criteria.
+
+Great for validating that all user journeys are covered.
+
+Useful reference for designers, devs, and QA.
+https://drive.google.com/file/d/1YuOxwqM3BRV0kIkqbb5bAzkew33O3Vhe/view?usp=sharing
+
+
 New services (like loyalty programs or discount coupons) can be added without disrupting core booking.
