@@ -39,3 +39,81 @@ Here, the requirements are analyzed, refined, and prioritized. The objective is 
 5. Requirement Validation
 
 This final activity ensures that all documented requirements are complete, consistent, testable, and aligned with business objectives. Validation is done through reviews, walkthroughs, stakeholder feedback sessions, and prototyping. It reduces the risk of building the wrong product by confirming that the captured requirements truly reflect stakeholder needs.
+# Types of Requirements
+-Functional Requirements (What the system should do)
+
+These are the features and services the system must provide.
+
+Examples from the case study:
+
+@ User & Hotel Management
+
+Customers can create accounts, log in, and update profiles.
+
+Hotel managers can add, update, and delete hotel listings (rooms, prices, availability).
+
+@ Search & Booking
+
+Customers can search hotels by location, date, price, and rating.
+
+Customers can book rooms and receive booking confirmation.
+
+Customers can cancel or modify bookings.
+
+@ Payment & Transactions
+
+Integration with third-party payment gateways (Stripe, PayPal, etc.).
+
+Support for refund processing in case of cancellations.
+
+@ Notifications
+
+Send booking confirmations to customers via email/notification.
+
+Notify hotel managers when a new booking is made.
+
+@ View Bookings
+
+Customers can view current and past bookings.
+
+Managers can view all bookings related to their hotels.
+
+-Non-functional Requirements (How the system should perform)
+
+These describe the quality attributes of the system.
+
+Examples from the case study:
+
+@ Performance & Scalability
+
+The system should handle thousands of concurrent searches and bookings.
+
+Search results should load in under 2 seconds even during peak traffic.
+
+Support horizontal scaling with microservices architecture.
+
+@ Reliability & Availability
+
+The system must have 99.9% uptime to support global users.
+
+Booking operations must be transactional (no double-booking).
+
+@ Security
+
+Payment processing must comply with PCI-DSS standards.
+
+All sensitive data (passwords, payment info) must be encrypted.
+
+Users must be authenticated securely with JWT or OAuth.
+
+@ Usability
+
+The app must be user-friendly, supporting multi-language and multi-currency.
+
+Provide responsive design for mobile and web users.
+
+@ Maintainability & Extensibility
+
+The system should be designed with modular microservices for easier updates.
+
+New services (like loyalty programs or discount coupons) can be added without disrupting core booking.
