@@ -130,9 +130,30 @@ Helps derive user stories / acceptance criteria.
 Great for validating that all user journeys are covered.
 
 Useful reference for designers, devs, and QA.
-
-https://drive.google.com/file/d/alx-booking-uc/view?usp=sharing
-
-
-
+https://drive.google.com/file/d/1YuOxwqM3BRV0kIkqbb5bAzkew33O3Vhe/view?usp=sharing
 New services (like loyalty programs or discount coupons) can be added without disrupting core booking.
+# Acceptance Criteria
+
+Acceptance criteria are the conditions that a software product must meet to be accepted by the end user, customer, or stakeholders. They define the scope, functionality, and expected behavior of a feature. In requirement analysis, acceptance criteria ensure that:
+
+The development team clearly understands what needs to be built.
+
+Testers know how to verify if the feature works correctly.
+
+Stakeholders can validate whether their requirements are satisfied.
+
+Ambiguity is reduced by setting measurable and testable outcomes.
+
+In short, acceptance criteria bridge the gap between requirements and testing, making sure the software meets business goals and user expectations.
+
+Example: Acceptance Criteria for Checkout Feature (Booking Management System)
+
+Feature: Checkout
+
+Acceptance Criteria:
+
+1. The system must allow a user to proceed to checkout only if they have at least one booking in the cart.
+
+2. The system must display a summary of the booking (date, time, price, location) before confirming checkout.
+
+3. The user must be able to select a payment method (credit card, PayPal, etc.).
